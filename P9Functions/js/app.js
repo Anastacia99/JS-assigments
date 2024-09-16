@@ -9,7 +9,7 @@ console.log ("Turn Righy");
 
 
 function stepForward() :{ no usage new
-  concole.log ("Move Forward.");
+  console.log ("Move Forward.");
 {
   function turnRight () { no usage new
     console.log("Turn Right");
