@@ -1,3 +1,5 @@
+/*
+
 function sayManyThings () {
   console.log
 }
@@ -39,4 +41,44 @@ console.log(square(numberToSquare:15));
 function doubleNumber(numberToDouble) {
   console.log(number
 }
+
+Let inputNumberOne:number = 0;
+
+function multipleBySelf(numberToMultiply) {
+  return numberToMultiply * numberToMultiply;
+}
+console.log(multiplebySelf(numberToMultiply:4));
+
+function add(firstNumber, secondNumber) {
+  return firstNumber + secondNumber;
+}
+console.log(add(5,20))
+
+*/
+
+function average (firstNumber, secondNumber) {
+  return (firstNumber + secondNumber) /2;
+
+}
+console.log (average(2, 6));
+
+/*
+function avg (firstName, secondName) {
+  return "Welcome" + " "+ firstName + " " + secondName;
+ }
+ console.log(avg("Ben", "Ting"));
+
+*/
+
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+console.log(getRandomNumber());
+console.log(getRandomNumber());
+console.log(getRandomNumber());
+console.log(getRandomNumber());
+
+
+
 
