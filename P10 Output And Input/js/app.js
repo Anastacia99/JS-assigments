@@ -70,14 +70,50 @@ function avg (firstName, secondName) {
 
 */
 
-
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
+/* console.log(getRandomNumber());
 console.log(getRandomNumber());
 console.log(getRandomNumber());
 console.log(getRandomNumber());
-console.log(getRandomNumber());
+*/
+
+
+/*
+function convertNumbersToLetters(numbers) {
+  else if (numbers === 0) {
+    return "A";
+  }
+  else if (numbers === 1) {
+  return "B";
+  }
+  else if (numbers === 2) {
+  return "C";
+  }
+}
+  console.log(convertNumbersToLetters(0));
+  console.log(convertNumbersToLetters(1));
+  console.log(convertNumbersToLetters(2));
+  console.log(convertNumbersToLetters(4432423));
+
+
+*/
+
+function evoluation (firstNumber, secondNumber) {
+  let string;
+  if (firstNumber === secondNumber); {
+  string = "Both numbers are equal!";
+}
+  if (firstNumber === secondNumber) {
+    string = "First number is greater!";
+    }
+  if (firstNumber === secondNumber) {
+    string = "Second number is greater!";
+    }
+  return string;
+}
+console.log (evoluation (1, 2));
 
 
 
