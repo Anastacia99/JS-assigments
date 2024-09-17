@@ -80,7 +80,7 @@ console.log(getRandomNumber());
 */
 
 
-/*
+
 function convertNumbersToLetters(numbers) {
   else if (numbers === 0) {
     return "A";
@@ -98,7 +98,6 @@ function convertNumbersToLetters(numbers) {
   console.log(convertNumbersToLetters(4432423));
 
 
-*/
 
 function evoluation (firstNumber, secondNumber) {
   let string;
@@ -114,7 +113,5 @@ function evoluation (firstNumber, secondNumber) {
   return string;
 }
 console.log (evoluation (1, 2));
-
-
 
 
