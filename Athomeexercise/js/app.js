@@ -7,7 +7,6 @@ let total = 0;
 console.log (total);
 console.log (five + eight);
 
-/*
 let numberOfBottles = 10;  // Antal flaskor, börjar på 10
 const line1 = "green bottles hanging on the wall" // Första raden av text
 const line2 = "And if one green bottle, should accidentally fall, there will be"; // Andra raden av text
@@ -19,6 +18,7 @@ let number = 10;
 number = number - 3;
 console.log(number);
 
+//
 
 const birthYear = 2000;
 const currentYear = 2024;
@@ -36,9 +36,8 @@ let isAdult = ageOfPerson >= 18;
 console.log(isChild);
 console.log(isTeenager);
 console.log(isAdult);
-*/
 
-/*
+//
 const birthYear = 2010;
 const currentYear = 2024;
 const favoriteNumber = 785657;
@@ -79,8 +78,9 @@ if (favoriteNumber % 2 === 0) {
 } else {
   console.log("Favorite Number is odd");
 }
-*/
+
 /*
+
 let x = 5 + 5; // x= 10
 let y= x + 5; // y= 15
 let z = y + y; // z= 30
@@ -93,9 +93,9 @@ let multiply = 3 * 4; // 13
 let divide = 9/ 3; // 3
 
 let modulo = 10 % 3;
-*/
+//
 
-
+/*
 let speedInput = 72;
 let speedOutput = 0;
 speedOutput = speedInput / 3.6;
@@ -159,3 +159,68 @@ console.log(secOutput);
 // Text Styling
 minSecOutput = minOutput + " minute(s) and " + secOutput + " second(s)";
 console.log(minSecOutput);
+
+ */
+function multiplyBySelf(numberToMultiply) {
+  return numberToMultiply * numberToMultiply;
+}
+console.log(multiplyBySelf(4));
+
+function average(firstNumber, secondNumber) {
+  let sumOfNumbers = firstNumber + secondNumber;
+  return sumOfNumbers / 2;
+}
+console.log(average(2, 6));
+
+function welcome(firstName, lastName) {
+  let greeting = "Welcome " + firstName + " " + lastName;
+  return greeting;
+}
+console.log(welcome("John", "Doe"));
+console.log(welcome("Jane", "Yo"));
+
+function getRandomInt() {
+  return Math.floor(Math.random() * 3);
+}
+console.log(getRandomInt());
+
+function convertNumbersToLetters(number) {
+  if (number === 0) {
+    return "A";
+  }
+  else if (number === 1) {
+    return "B";
+  }
+  else if (number === 2) {
+    return "C";
+  }
+  else {
+    return "Invalid Number";
+  }
+}
+console.log(convertNumbersToLetters(0));
+console.log(convertNumbersToLetters(1));
+console.log(convertNumbersToLetters(2));
+console.log(convertNumbersToLetters(4432423));
+
+let score = 0;
+
+function evaluateResult(firstNumber, secondNumber) {
+  if (firstNumber === secondNumber) {
+    return "Numbers are equal!";
+  }
+  else if (firstNumber > secondNumber) {
+    score++;
+    return "First number is greater than second number!";
+  }
+  else if (secondNumber > firstNumber) {
+    score--;
+    return "Second number is greater than first number!";
+  }
+}
+
+console.log(evaluateResult(3124233331, 4123412));
+console.log(score);
+
+
+
